@@ -211,3 +211,5 @@
 2023-12-07 Fred Gleason <fredg@paravelsystems.com>
 	* Removed 'Power Manager' from the list of services to be disabled
 	in 'docs/mint21_cleanups.txt'.
+2024-04-22 Fred Gleason <fredg@paravelsystems.com>
+	* Forked to branch 'noble_24.04'.
