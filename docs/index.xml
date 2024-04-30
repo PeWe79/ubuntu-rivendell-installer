@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <article xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
 <info>
-  <title>Creating a Rivendell 4 dedicated appliance using Ubuntu Desktop 22.04
-  LTS Jammy Jellyfish</title>
+  <title>Creating a Rivendell 4 dedicated appliance using Ubuntu Desktop 24.04
+  LTS Noble Numbat</title>
   <author>
     <personname>
       <firstname>Fred</firstname>
@@ -19,7 +19,7 @@
     <para>
       This HOWTO contains procedures for creating a dedicated Rivendell
       &quot;appliance&quot; system using the
-      Ubuntu Desktop 22.04 LTS Jammy Jellyfish distribution. While the
+      Ubuntu Desktop 24.04 LTS Noble Numbat distribution. While the
       screenshots are specific to Ubuntu Desktop, these instructions are
       also applicable to other distributions devices derived from it. Such
       distributions include:
@@ -27,15 +27,17 @@
     <itemizedlist>
       <listitem>
 	<para>
-	  Ubuntu Studio 22.04 LTS Jammy Jellyfish
+	  Ubuntu Studio 24.04 LTS Noble Numbat
 	</para>
       </listitem>
+<!--
       <listitem>
 	<para>
 	  Linux Mint 21
 	</para>
       </listitem>
-    </itemizedlist>
+-->
+</itemizedlist>
     <para>
       Installing Rivendell on Ubuntu Desktop consists of these primary steps:
     </para>
@@ -75,7 +77,7 @@
       </listitem>
       <listitem>
 	<para>
-	  A installer image for Ubuntu Desktop 22.04 LTS Jammy Jellyfish,
+	  A installer image for Ubuntu Desktop 24.04 LTS Noble Numbat,
 	  available at <link xlink:href="https://ubuntu.com/download/desktop">
 	  https://ubuntu.com/download/desktop</link>. After downloading the
 	  ISO image, burn it to a blank DVD or make a "bootable" USB
@@ -102,7 +104,7 @@
 <sect1>
   <title>Installing the Base Distribution</title>
   <para>
-    Boot the Ubuntu Desktop 22.04 LTS Jammy Jellyfish installation media
+    Boot the Ubuntu Desktop 24.04 LTS Noble Numbat installation media
     (DVD or USB key). You should wind up at the initial boot screen.
   </para>
   <para>
@@ -398,7 +400,7 @@
     pressing the <userinput>Enter</userinput> key after each one:
   </para>
   <para>
-    <userinput> wget https://software.paravelsystems.com/ubuntu/dists/jammy/main/install_rivendell.sh -P .</userinput>
+    <userinput> wget https://software.paravelsystems.com/ubuntu/dists/noble/main/install_rivendell.sh -P .</userinput>
   </para>
   <para>
     <userinput>chmod 755 install_rivendell.sh</userinput>
