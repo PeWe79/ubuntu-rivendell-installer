@@ -21,7 +21,7 @@
       &quot;appliance&quot; system using the
       Ubuntu Desktop 24.04 LTS Noble Numbat distribution. While the
       screenshots are specific to Ubuntu Desktop, these instructions are
-      also applicable to other distributions devices derived from it. Such
+      also applicable to other distributions derived from it. Such
       distributions include:
     </para>
     <itemizedlist>
@@ -62,11 +62,11 @@
     <itemizedlist>
       <listitem>
 	<para>
-	  Target hardware. 64 bit (x86_64) AMD or Intel architecture
+	  Target hardware. 64 bit (amd64) AMD or Intel architecture
 	  is supported. For the purposes of this HOWTO, the target machine
 	  will be assumed to have a single, blank hard drive. Installations
-	  utilizing multiple hard drives (including RAID arrays) are
-	  possible, but beyond the scope of this HOWTO.
+	  utilizing multiple hard drives (including RAID arrays and ZFS
+	  filesystems) are possible, but beyond the scope of this HOWTO.
 	</para>
 	<note>
 	  Secure Boot should be disabled on the target hardware prior
