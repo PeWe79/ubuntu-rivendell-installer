@@ -29,26 +29,44 @@
 
 all-local:	index.html
 
-EXTRA_DIST = bootscreen.png\
+EXTRA_DIST = accessibility_in_ubuntu.png\
+             applications.png\
+             bootscreen.png\
+             configuring_pbuilder.png\
+             configuring_pbuilder_enter_mirror.png\
+             create_your_account.png\
+             disk_setup.png\
              help_improve_ubuntu.png\
              incomplete_language_support.png\
              installation_complete.png\
+             installation_slide_show.png\
              installation_type.png\
+             installer_menu.png\
+             internet_connection.png\
              index.html\
              index.xml\
              installer_menu.png\
              keyboard_layout.png\
              online_accounts.png\
              opening_terminal.png\
+             optimize_your_computer.png\
+             postfix_configuration.png\
              privacy.png\
              ready_to_go.png\
+             ready_to_install.png\
+             remove_installation_medium.png\
+             select_your_timezone.png\
              slideshow.png\
              software_on_this_computer_is_up_to_date.png\
              terminal_window.png\
+             try_or_install_ubuntu.png\
+             type_of_installation.png\
+             ubuntu_pro.png\
              updated_software_has_been_issued.png\
              updates_and_other_software.png\
              user_rd_password_prompt.png\
              welcome.png\
+             welcome_to_ubuntu.png\
              where_are_you.png\
              who_are_you.png\
              write_changes_to_disc.png

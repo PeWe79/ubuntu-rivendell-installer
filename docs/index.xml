@@ -121,7 +121,7 @@
   <para>
     Highlight the <computeroutput>Try or Install Ubuntu</computeroutput>
     prompt and then press <userinput>Enter</userinput> to proceed to the
-    <computeroutput>Welcome</computeroutput> screen.
+    <computeroutput>Welcome to Ubuntu</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
@@ -132,9 +132,21 @@
   </para>
   <para>
     You will be asked to specify the language to use for the install.
-    Choose and then touch the <computeroutput>Install Ubuntu</computeroutput>
+    Choose and then touch the <computeroutput>Next</computeroutput>
     button to proceed to the
-    <computeroutput>Keyboard Layout</computeroutput> screen.
+    <computeroutput>Accessibility</computeroutput> screen.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="accessibility_in_ubuntu.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Configure any desired accessibility aids, then touch the
+    <computeroutput>Next</computeroutput> button to proceed to the
+    <computeroutput>Keyboard layout</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
@@ -145,63 +157,96 @@
   </para>
   <para>
     Choose your desired keyboard layout and then touch the
-    <computeroutput>Continue</computeroutput> button to proceed to the
-    <computeroutput>Updates and other software</computeroutput> screen.
+    <computeroutput>Next</computeroutput> button to proceed to the
+    <computeroutput>Internet connection</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="updates_and_other_software.png" scale="90"/>
+	<imagedata fileref="internet_connection.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
   <para>
-    Touch the <computeroutput>Continue</computeroutput> button to proceed
-    to the <computeroutput>Installation type</computeroutput> screen.
+    Select the <computeroutput>Use wired connection</computeroutput> radio
+    button and then touch the <computeroutput>Next</computeroutput> button
+    to proceed to the <computeroutput>Try or install Ubuntu</computeroutput>
+    screen.
+  </para>
+  <note>
+    Use of a wired network connection is
+    <emphasis>highly recommended</emphasis> for Rivendell.
+  </note>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="try_or_install_ubuntu.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Select <computeroutput>Install Ubuntu</computeroutput> and then
+    touch the <computeroutput>Next</computeroutput> button to proceed
+    to the <computeroutput>Type of installation</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="installation_type.png" scale="90"/>
+	<imagedata fileref="type_of_installation.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Select <computeroutput>Interactive installation</computeroutput> and then
+    touch the <computeroutput>Next</computeroutput> button to proceed
+    to the <computeroutput>Applications</computeroutput> screen.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="applications.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Select <computeroutput>Default selection</computeroutput> and then
+    touch the <computeroutput>Next</computeroutput> button to proceed
+    to the <computeroutput>Optimize your computer</computeroutput> screen.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="optimize_your_computer.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Select the
+    <computeroutput>Install third-party software for graphics and Wi-Fi
+    hardware</computeroutput> and <computeroutput>Download and install
+    support for additional media formats</computeroutput>
+    options and then touch the <computeroutput>Next</computeroutput>
+    button to proceed to the <computeroutput>Disk setup</computeroutput>
+    screen.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="disk_setup.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
   <para>
     Select the
     <computeroutput>Erase disk and install Ubuntu</computeroutput>
-    option and then touch the <computeroutput>Install Now</computeroutput>
-    button. You will then be prompted for the timezone to be used on the
-    system.
-  </para>
-  <note>
-    You may be prompted to confirm the changes about to be made to the
-    systems discs at this point.
-    <para>
-    <mediaobject>
-      <imageobject>
-	<imagedata fileref="write_changes_to_disc.png" scale="90"/>
-      </imageobject>
-    </mediaobject>
-    </para>
-    If this happens, touch the <computeroutput>Continue</computeroutput>
-    button to proceed.
-  </note>
-  <para>
-    <mediaobject>
-      <imageobject>
-	<imagedata fileref="where_are_you.png" scale="90"/>
-      </imageobject>
-    </mediaobject>
-  </para>
-  <para>
-    Choose the desired region for the time zone and then touch the
-    <computeroutput>Continue</computeroutput> button to proceed to the
-    <computeroutput>Who are you?</computeroutput> screen.
+    option and then touch the <computeroutput>Next</computeroutput>
+    button to proceed to the
+    <computeroutput>Create your account</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="who_are_you.png" scale="90"/>
+	<imagedata fileref="create_your_account.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
@@ -222,7 +267,7 @@
       </varlistentry>
       <varlistentry>
 	<term>
-	  <computeroutput>Pick a username:</computeroutput>
+	  <computeroutput>Your username:</computeroutput>
 	</term>
 	<listitem>
 	  <para>
@@ -234,22 +279,49 @@
   </para>
   <para>
     The remaining fields should be filled out as appropriate for your site.
+    When all the fields are as you wish, touch the
+    <computeroutput>Next</computeroutput> button to proceed to the
+    <computeroutput>Select your timezone</computeroutput> screen.
+  </para>
+  <warning>
+    Do not forget what you enter here, especially the Username and Password
+    values! You will need this information to configure and use your
+    Rivendell system.
+  </warning>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="select_your_timezone.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
   </para>
   <para>
-    When everything is filled out as you wish, touch the
-    <computeroutput>Continue</computeroutput> button to begin the actual
+    Choose the desired region for the time zone and then touch the
+    <computeroutput>Next</computeroutput> button to proceed to the
+    <computeroutput>Ready to install</computeroutput> screen.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="ready_to_install.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
+  </para>
+  <para>
+    Touch the <computeroutput>Next</computeroutput> button to begin the
     installation. Depending on the speed of your Internet connction, this
     will take anywhere from a few minutes to an hour or more.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="slideshow.png" scale="90"/>
+	<imagedata fileref="installation_slide_show.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
   <para>
-    You will eventually see a message that the installation is complete.
+    When the installation is complete, touch the
+    <computeroutput>Restart now</computeroutput> button to reboot the system.
   </para>
   <para>
     <mediaobject>
@@ -259,8 +331,15 @@
     </mediaobject>
   </para>
   <para>
-    Touch the <computeroutput>Restart Now</computeroutput> button to
-    reboot the system.
+    The system may prompt you to remove the &quot;installation medium&quot;
+    at this point. Remove the USB key and press <userinput>ENTER</userinput>.
+  </para>
+  <para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="remove_installation_medium.png" scale="90"/>
+      </imageobject>
+    </mediaobject>
   </para>
   <para>
     The system will reboot and come up to the login screen. Login
@@ -274,35 +353,35 @@
 
   <para>
     After logging in, you will see the
-    <computeroutput>Online Accounts</computeroutput> dialog.
+    <computeroutput>Welcome</computeroutput> dialog.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="online_accounts.png" scale="90"/>
+	<imagedata fileref="welcome_to_ubuntu.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
   <para>
-    Touch the <computeroutput>Skip</computeroutput> button to proceed to
-    <computeroutput>Help improve Ubuntu</computeroutput> screen.
+    Touch the <computeroutput>Next</computeroutput> button to proceed to
+    <computeroutput>Ubuntu Pro</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="help_improve_ubuntu.png" scale="90"/>
+	<imagedata fileref="ubuntu_pro.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
   <para>
     Make selections as desired and then touch the
     <computeroutput>Next</computeroutput> to proceed to the
-    <computeroutput>Privacy</computeroutput> screen.
+    <computeroutput>Help improve Ubuntu</computeroutput> screen.
   </para>
   <para>
     <mediaobject>
       <imageobject>
-	<imagedata fileref="privacy.png" scale="90"/>
+	<imagedata fileref="help_improve_ubuntu.png" scale="90"/>
       </imageobject>
     </mediaobject>
   </para>
@@ -319,27 +398,10 @@
     </mediaobject>
   </para>
   <para>
-    Touch the <computeroutput>Done</computeroutput> button to exit the
+    Touch the <computeroutput>Finish</computeroutput> button to exit the
     <computeroutput>Welcome to Ubuntu</computeroutput> utility.
   </para>
-
-<!--
-  <para>
-    After logging in, you may be prompted to update language support.
-  </para>
-  <para>
-    <mediaobject>
-      <imageobject>
-	<imagedata fileref="incomplete_language_support.png" scale="90"/>
-      </imageobject>
-    </mediaobject>
-  </para>
-  <para>
-    If this happens, touch the
-    <computeroutput>Run this action now</computeroutput> button, and then
-    the <computeroutput>Install</computeroutput>.
-  </para>
--->
+  <!--
   <para>
     You may be prompted to install updated software packages (evidenced
     by the appearance of an item with the phrase
@@ -370,6 +432,7 @@
     the system, following which the system will be ready to have Rivendell
     installed.
   </para>
+  -->
 </sect1>
 
 <sect1>

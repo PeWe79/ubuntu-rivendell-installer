@@ -46,6 +46,7 @@ function AddRepos {
     echo "Adding repo..."
     wget https://software.paravelsystems.com/ubuntu/dists/noble/main/Paravel-Ubuntu-24.04-Repo.gpg -P /etc/apt/trusted.gpg.d/
     wget https://software.paravelsystems.com/ubuntu/dists/noble/main/Paravel-Ubuntu-24.04-Repo.list -P /etc/apt/sources.list.d/
+    /bin/systemctl daemon-reload
     apt update
     apt -y install ubuntu-rivendell-installer
 }
