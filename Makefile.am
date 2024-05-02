@@ -2,7 +2,7 @@
 ##
 ## Top level automake.am for the ubuntu-rivendell-installer package.
 ##
-##   (C) Copyright 2021 Fred Gleason <fredg@paravelsystems.com>
+##   (C) Copyright 2021-2024 Fred Gleason <fredg@paravelsystems.com>
 ##
 ##   This program is free software; you can redistribute it and/or modify
 ##   it under the terms of the GNU General Public License version 2 as
@@ -34,7 +34,7 @@ maintainer-clean-local:
 	rm -rf m4
 
 howto:	all
-	rsync -rptgoDv --delete docs/*.html docs/*.png software.paravelsystems.com::howtos/ubuntu/jammy/
+	rsync -rptgoDv --delete docs/*.html docs/*.png software.paravelsystems.com::howtos/ubuntu/noble/
 
 deb:	dist
 	./build_debs.sh

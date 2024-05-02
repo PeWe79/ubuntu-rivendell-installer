@@ -2,7 +2,7 @@
 
 # install_rivendell.sh
 #
-# Install Rivendell 4.x on an Ubuntu 22.04 system
+# Install Rivendell 4.x on an Ubuntu 24.04 system
 #
 
 # USAGE: AddDbUser <dbname> <hostname> <username> <password>

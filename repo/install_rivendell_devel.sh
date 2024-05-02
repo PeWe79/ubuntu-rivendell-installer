@@ -2,9 +2,9 @@
 
 # install_rivendell_devel.sh
 #
-# Install the Rivendell 4.x development tools on an Ubuntu 22.04 system
+# Install the Rivendell 4.x development tools on an Ubuntu 24.04 system
 #
-#    Copyright (C) 2021 Fred Gleason <fredg@paravelsystems.com>
+#    Copyright (C) 2021-2024 Fred Gleason <fredg@paravelsystems.com>
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of version 2 of the GNU General Public License as
