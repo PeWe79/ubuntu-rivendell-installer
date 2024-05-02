@@ -227,3 +227,5 @@
 	Ubuntu 24.04 Noble Numbat.
 2024-05-02 Fred Gleason <fredg@paravelsystems.com>
 	* Added 'paravelview' and 'lwmon' packages to the base installation.
+2024-05-02 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version to 0.1.1noble.
