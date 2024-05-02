@@ -225,3 +225,5 @@
 2024-05-02 Fred Gleason <fredg@paravelsystems.com>
 	* Fixed references to Ubuntu 22.04 Jammy Jellyfish to point to
 	Ubuntu 24.04 Noble Numbat.
+2024-05-02 Fred Gleason <fredg@paravelsystems.com>
+	* Added 'paravelview' and 'lwmon' packages to the base installation.
