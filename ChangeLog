@@ -229,3 +229,7 @@
 	* Added 'paravelview' and 'lwmon' packages to the base installation.
 2024-05-02 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version to 0.1.1noble.
+2024-05-03 Fred Gleason <fredg@paravelsystems.com>
+	* Added preseeds for the 'postfix' and 'pbuilder' packages.
+2024-05-03 Fred Gleason <fredg@paravelsystems.com>
+	* Incremented the package version to 0.1.2noble.
