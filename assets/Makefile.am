@@ -2,7 +2,7 @@
 ##
 ## common/Makefile.am for the ubuntu-rivendell-installer package.
 ##
-##   (C) Copyright 2021-2023 Fred Gleason <fredg@paravelsystems.com>
+##   (C) Copyright 2021-2024 Fred Gleason <fredg@paravelsystems.com>
 ##
 ##   This program is free software; you can redistribute it and/or modify
 ##   it under the terms of the GNU General Public License version 2 as
@@ -25,6 +25,7 @@ EXTRA_DIST = 50-default.conf.patch\
              auto.misc.template\
              auto.misc.client_template\
              auto.rd.audiostore.template\
+             deb_preseeds\
              docbook5.sh\
              paravel_support.pdf\
              rd.conf-sample\

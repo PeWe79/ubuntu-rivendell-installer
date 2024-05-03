@@ -95,6 +95,7 @@ echo $NFS_MOUNT_TYPE >> /root/rivendell_install_log.txt
 #
 # Install Dependencies
 #
+debconf-set-selections /usr/share/ubuntu-rivendell-installer/deb_preseeds
 apt -y install openssh-server patch evince telnet samba chrony emacs nfs-common smbclient net-tools traceroute gedit ntfs-3g autofs libmad0 libtwolame0 libmp3lame0 paravelview lwmon
 
 if test $MODE = "server" ; then
