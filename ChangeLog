@@ -215,3 +215,6 @@
 	* Added 'paravelview' and 'lwmon' packages to the base installation.
 2024-05-02 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version to 1.1.0jammy
+2024-09-09 Fred Gleason <fredg@paravelsystems.com>
+	* Added a convenience config in
+	'/etc/sysctl.d/60-ipv6-disable.conf-DISABLED'.

@@ -17,6 +17,10 @@ Applications->Session and Startup->Application Autostart
   systemctl disable avahi-daemon
   systemctl mask avahi-daemon
 
+# Disable IPv6
+  mv /etc/sysctl.d/60-ipv6-disable.conf-DISABLED /etc/sysctl.d/60-ipv6-disable.conf
+  service procps start
+
 grep asihpi /proc/modules
 dkms build -m asihpi -v 4.20.39
 dkms install -m asihpi -v 4.20.39

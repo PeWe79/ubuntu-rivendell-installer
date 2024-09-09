@@ -180,6 +180,11 @@ if test $MODE = "standalone" ; then
 fi
 
 #
+# Convenience Configs
+#
+cp /usr/share/rivendell-installer/60-ipv6-disable.conf-DISABLED /etc/sysctl.d/
+
+#
 # Install Rivendell
 #
 patch -p0 /etc/rsyslog.d/50-default.conf /usr/share/ubuntu-rivendell-installer/50-default.conf.patch
