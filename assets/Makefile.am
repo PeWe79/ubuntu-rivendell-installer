@@ -20,6 +20,7 @@
 ## Use automake to process this into a Makefile.in
 
 EXTRA_DIST = 50-default.conf.patch\
+             60-ipv6-disable.conf-DISABLED\
              90-rivendell.cnf\
              asound.conf\
              auto.misc.template\

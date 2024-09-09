@@ -233,3 +233,6 @@
 	* Added preseeds for the 'postfix' and 'pbuilder' packages.
 2024-05-03 Fred Gleason <fredg@paravelsystems.com>
 	* Incremented the package version to 0.1.2noble.
+2024-09-09 Fred Gleason <fredg@paravelsystems.com>
+	* Added a convenience config in
+	'/etc/sysctl.d/60-ipv6-disable.conf-DISABLED'.

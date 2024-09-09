@@ -26,6 +26,7 @@ binary:
 	cp assets/xfce-config.tgz debian/ubuntu-rivendell-installer/usr/share/ubuntu-rivendell-installer/
 	cp assets/rd.conf-sample debian/ubuntu-rivendell-installer/usr/share/ubuntu-rivendell-installer/
 	cp assets/deb_preseeds debian/ubuntu-rivendell-installer/usr/share/ubuntu-rivendell-installer/
+	cp assets/60-ipv6-disable.conf-DISABLED debian/ubuntu-rivendell-installer/usr/share/ubuntu-rivendell-installer/
 	dh_strip_nondeterminism
 	dh_compress
 	dh_fixperms
